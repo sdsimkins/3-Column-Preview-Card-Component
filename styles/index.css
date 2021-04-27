@@ -10,19 +10,91 @@ HTML {
   font-family: "Lexend Deca", sans-serif;
 }
 
-h2 {
+h1 {
   font-family: "Big Shoulders Display", cursive;
+  font-size: 3rem;
+  color: #f2f2f2;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 main {
   height: 100vh;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.card-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 65%;
+  height: 65%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.card-container > * {
+  width: 100%;
+}
+
+.card {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 3rem;
+}
+
+.card p {
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+
+.card a {
+  background: #f2f2f2;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 2rem;
+  width: 70%;
+}
+
+.sedans {
+  background: #e38826;
+}
+
+.sedans a {
+  color: #e38826;
+}
+
+.suvs {
+  background: #006970;
+}
+
+.suvs a {
+  color: #006970;
+}
+
+.luxery {
+  background: #004241;
+}
+
+.luxery a {
+  color: #004241;
 }
 /*# sourceMappingURL=index.css.map */
