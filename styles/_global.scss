@@ -1,0 +1,20 @@
+// Global Styles and Variables
+
+HTML {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+$orange: hsl(31, 77%, 52%);
+$teal: hsl(184, 100%, 22%);
+$green: hsl(179, 100%, 13%);
+$text: hsla(0, 0%, 100%, 0.75);
+$grey: hsl(0, 0%, 95%);
+
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
