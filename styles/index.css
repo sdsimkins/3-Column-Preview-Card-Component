@@ -97,4 +97,52 @@ main {
 .luxery a {
   color: #004241;
 }
+
+.attribution a {
+  color: black;
+}
+
+@media screen and (max-width: 1100px) {
+  main {
+    height: 160vh;
+  }
+  .card-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 150vh;
+    width: 50%;
+  }
+  .card-container p {
+    width: 80%;
+  }
+  .card-container a {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    height: 200vh;
+  }
+  .card-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 160vh;
+    width: 90%;
+    margin: auto;
+  }
+  .card-container a {
+    width: 70%;
+  }
+  p {
+    width: 100%;
+  }
+  .card {
+    height: 120%;
+  }
+}
 /*# sourceMappingURL=index.css.map */
